@@ -1,0 +1,42 @@
+body {
+	display: flex;
+}
+#container {
+	display: flex;
+	flex-direction: column;
+}
+#sky {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	order: 1;
+	background-image: url("https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=blue-clouds-day-53594.jpg&fm=jpg");
+}
+#ground {
+	width: 100vw;
+	height: 50vh;
+	display: flex;
+	order: 2;
+}
+
+#grass {
+	width: 60vw;
+	height: 50vh;
+	display: flex;
+	background-color: green;
+}
+#pond {
+	width: 40vw;
+	height: 50vh;
+	display: flex;
+	order: 3;
+	background-color: blue;
+}
+#frog {
+	height: 100px;
+	width: 100px;
+}
+.duck {
+	height: 100px;
+	width: 100px;
+}
