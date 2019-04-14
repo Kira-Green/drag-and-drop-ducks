@@ -24,19 +24,24 @@ body {
 	height: 50vh;
 	display: flex;
 	background-color: green;
+	background-image: url(http://pngimg.com/uploads/grass/grass_PNG401.png);
 }
 #pond {
 	width: 40vw;
 	height: 50vh;
 	display: flex;
-	order: 3;
-	background-color: blue;
+	background-image: url("https://images.pexels.com/photos/734973/pexels-photo-734973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 #frog {
 	height: 100px;
 	width: 100px;
+	z-index: 3;
 }
 .duck {
 	height: 100px;
 	width: 100px;
+	z-index: 3;
 }
